@@ -27,9 +27,9 @@
 
         default_layer {
             bindings = <
-&lt 2 Q         &kp W               &kp E  &kp R      &kp T             &kp Y             &kp U  &kp I      &kp O                  &kp P
-&kp A           &kp S               &kp D  &kp F      &kp G             &kp H             &kp J  &kp K      &kp L                  &kp SEMICOLON
-&ht LEFT_ALT Z  &ht LEFT_COMMAND X  &kp C  &kp V      &kp B             &kp N             &kp M  &kp COMMA  &ht RIGHT_COMMAND DOT  &ht RIGHT_ALT SLASH
+&lt 2 Q             &kp W           &kp E  &kp R      &kp T             &kp Y             &kp U  &kp I      &kp O              &kp P
+&kp A               &kp S           &kp D  &kp F      &kp G             &kp H             &kp J  &kp K      &kp L              &kp SEMICOLON
+&ht LEFT_COMMAND Z  &ht LEFT_ALT X  &kp C  &kp V      &kp B             &kp N             &kp M  &kp COMMA  &ht RIGHT_ALT DOT  &ht RIGHT_COMMAND SLASH
                                            &kp SPACE  &sk LEFT_SHIFT    &kp LEFT_CONTROL  &sl 1
             >;
 
