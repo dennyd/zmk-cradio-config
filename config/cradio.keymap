@@ -41,7 +41,7 @@
 &kp TAB   &kp LS(UNDER)  &kp LBKT      &kp RBKT      &mt PIPE SINGLE_QUOTE    &mt BACKSLASH GRAVE  &kp N7     &kp N8  &kp N9  &kp N0
 &kp ESC   &kp EQUAL      &kp LS(LPAR)  &kp LS(RPAR)  &kp LS(DQT)              &kp LS(PLUS)         &kp EQUAL  &kp N5  &kp N6  &kp RET
 &kp BSPC  &kp MINUS      &kp LS(LBRC)  &kp LS(RBRC)  &kp LS(TILDE)            &kp N0               &kp N1     &kp N2  &kp N3  &trans
-                                       &to 0         &none                    &trans               &trans
+                                       &to 0         &trans                   &trans               &trans
             >;
 
             label = "digits";
