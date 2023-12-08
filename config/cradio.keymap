@@ -22,7 +22,7 @@
         compatible = "zmk,conditional-layers";
 
         tri_layer {
-            if-layers = <1 2>;
+            if-layers = <1 1>;
             then-layer = <3>;
         };
     };
@@ -32,19 +32,10 @@
 
         default_layer {
             bindings = <
-&kp Q           &kp W               &kp E  &kp R      &kp T             &kp Y             &kp U  &kp I      &kp O                  &kp P
+&lt 3 Q         &kp W               &kp E  &kp R      &kp T             &kp Y             &kp U  &kp I      &kp O                  &kp P
 &kp A           &kp S               &kp D  &kp F      &kp G             &kp H             &kp J  &kp K      &kp L                  &kp SEMICOLON
 &ht LEFT_ALT Z  &ht LEFT_COMMAND X  &kp C  &kp V      &kp B             &kp N             &kp M  &kp COMMA  &ht RIGHT_COMMAND DOT  &ht RIGHT_ALT SLASH
                                            &kp SPACE  &sk LEFT_SHIFT    &kp LEFT_CONTROL  &sl 1
-            >;
-        };
-
-        right_layer {
-            bindings = <
-&kp INS     &kp N1  &kp N2  &kp N3  &trans     &kp HOME  &kp PG_DN  &kp PG_UP  &kp END   &kp COLON
-&kp DEL     &kp N4  &kp N5  &kp N6  &trans     &kp LARW  &kp DARW   &kp UARW   &kp RARW  &kp SEMI
-&caps_word  &kp N7  &kp N8  &kp N9  &kp N0     &trans    &trans     &trans     &trans    &trans
-                            &trans  &kp ESC    &trans    &trans
             >;
         };
 
@@ -54,6 +45,15 @@
 &kp ESC   &kp EQUAL      &kp LS(LPAR)  &kp LS(RPAR)  &kp LS(DQT)              &kp LS(PLUS)         &kp EQUAL  &kp N5  &kp N6  &kp RET
 &kp BSPC  &kp MINUS      &kp LS(LBRC)  &kp LS(RBRC)  &kp LS(TILDE)            &kp N0               &kp N1     &kp N2  &kp N3  &trans
                                        &trans        &trans                   &trans               &trans
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &kp F3  &trans  &kp F3    &trans    &trans    &trans  &trans     &sl 3
+&trans  &trans  &trans  &trans  &trans    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans  &trans     &trans
+                        &trans  &trans    &trans    &trans
             >;
         };
 
